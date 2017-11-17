@@ -29,6 +29,7 @@ header h1 {
 
 .sidebar {
   width: 30%;
+  margin-bottom: 20px;
   border-radius: 25px;
   padding: 5px;
   padding-left: 22px; 

@@ -3,6 +3,7 @@ import './App.css';
 import Profile from './components/Profile'
 import EditUserInfo from './components/EditUserInfo'
 import Sidebar from './components/Sidebar'
+import Skills from './components/Skills'
 
 class App extends Component {
   render() {
@@ -13,9 +14,10 @@ class App extends Component {
         </header>
         <div className="container">
           <Profile />
-          <hr /> 
+          <hr />
           <Sidebar />
           <EditUserInfo />
+          <Skills />
         </div>
       </div>
     );
