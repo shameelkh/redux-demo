@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Profile from './components/Profile'
-import EditProfileForm from './components/EditProfileForm'
+import EditUserInfo from './components/EditUserInfo'
+import Sidebar from './components/Sidebar'
 
 class App extends Component {
   render() {
@@ -12,8 +13,9 @@ class App extends Component {
         </header>
         <div className="container">
           <Profile />
-          <hr />
-          <EditProfileForm />
+          <hr /> 
+          <Sidebar />
+          <EditUserInfo />
         </div>
       </div>
     );

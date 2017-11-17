@@ -27,6 +27,24 @@ header h1 {
   background-color: #eff0f2;
 }
 
+.sidebar {
+  width: 30%;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 22px; 
+  background-color: #eff0f2;
+  display: inline-block;
+}
+
+.editForm {
+  float: right;
+  width: 60%;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 22px; 
+  background-color: #eff0f2;
+}
+
 .stress {
   font-weight: bold;
   font-size: 20px;
