@@ -1,26 +1,19 @@
 import React from 'react'
 
 const Profile = () => {
-    let userInfo = {
-        username: 'Tom',
+    const userInfo = {
+        name: 'Tommy',
         email: 'Tom@gmail.com',
         hobby: 'Cooking'
     }
 
     return (
-        <div>
-            <h1>Profile Page</h1>
-            <UserInfo user={userInfo} />
-        </div>
-    )
-}
-
-const UserInfo = ({ user }) => {
-    return (
-        <div>
-            Username: {user.username} <br/>
-            Email: {user.email} <br/>
-            Hobby: {user.hobby} <br/>
+        <div className="page">
+            <h2>Profile Page</h2>
+            <p>
+                Welcome <span className="stress">{userInfo.name}</span>!!
+                I know you like <span className="stress">{userInfo.hobby}</span>.
+            </p>
         </div>
     )
 }
