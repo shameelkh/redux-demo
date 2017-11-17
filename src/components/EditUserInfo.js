@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { updateUserInfo } from '../actions'
 
-class EditProfileForm extends React.Component {
+class EditUserInfo extends React.Component {
 
     constructor(props) {
         super(props)
@@ -30,7 +30,7 @@ class EditProfileForm extends React.Component {
 
     render() {
         return (
-            <div className="page">
+            <div className="editForm">
                 <h2>Edit UserInfo</h2>
                 <form onSubmit={this.handleSubmit}>
                     <div>
@@ -52,4 +52,4 @@ class EditProfileForm extends React.Component {
     }
 }
 
-export default connect()(EditProfileForm)
+export default connect()(EditUserInfo)

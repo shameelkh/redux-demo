@@ -1,11 +1,12 @@
 import React from 'react'
+import { connect } from 'react-redux'
 
-const Profile = () => {
-    const userInfo = {
-        name: 'Tommy',
-        email: 'Tom@gmail.com',
-        hobby: 'Cooking'
-    }
+const Profile = ({ userInfo }) => {
+    // const userInfo = {
+    //     name: 'Tommy',
+    //     email: 'Tom@gmail.com',
+    //     hobby: 'Cooking'
+    // }
 
     return (
         <div className="page">
@@ -18,4 +19,10 @@ const Profile = () => {
     )
 }
 
-export default Profile
+const mapStateToProps = (state) => {
+    return {
+        userInfo: state.userInfo
+    }
+}
+
+export default connect(mapStateToProps, undefined)(Profile)

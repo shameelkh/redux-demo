@@ -2,10 +2,14 @@ import { UPDATE_USERINFO } from '../actions'
 
 // Reducer = (current_state, action) => new_state
 
-const userInfoReducer = (state = {}, action) => {
+const defaultState = {
+    name: 'Tom',
+    hobby: 'Cooking'
+}
+
+const UserInfoReducer = (state = defaultState, action) => {
     switch (action.type) {
         case UPDATE_USERINFO:
-            console.log(action.newUserInfo)
             return action.newUserInfo
 
         default:
@@ -13,4 +17,4 @@ const userInfoReducer = (state = {}, action) => {
     }
 }
 
-export default userInfoReducer
+export default UserInfoReducer
