@@ -1,11 +1,16 @@
 import { UPDATE_USERINFO } from '../actions'
 
+// Reducer = (current_state, action) => new_state
+
 const userInfoReducer = (state = {}, action) => {
-    switch (action) {
+    switch (action.type) {
         case UPDATE_USERINFO:
-            return action.updatedUserInfo
+            console.log(action.newUserInfo)
+            return action.newUserInfo
 
         default:
             return state
     }
 }
+
+export default userInfoReducer
