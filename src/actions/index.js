@@ -1,12 +1,13 @@
 
-export const RECIEVE_USERINFO = 'RECIEVE_USERINFO'
+// Actions
+export const FETCH_USERINFO = 'FETCH_USERINFO'
 export const UPDATE_USERINFO = 'UPDATE_USERINFO'
 
-export const updateUserInfo = (updatedUserInfo) => {
+// Action Creators
+
+export const updateUserInfo = (newUserInfo) => {
     return {
         type: UPDATE_USERINFO,
-        updatedUserInfo
+        newUserInfo: newUserInfo
     }
 }
-
-
