@@ -16,11 +16,11 @@ class App extends Component {
         <div className="container">
           <Profile />
           <hr />
-          <Sidebar />
+          {/* <Sidebar /> */}
           <EditUserInfo />
           <hr />
-          <Skills />
-          <EditSkillsForm />
+          {/* <Skills />
+          <EditSkillsForm /> */}
         </div>
       </div>
     );

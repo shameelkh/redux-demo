@@ -1,15 +1,15 @@
-import { ADD_SKILL } from '../actions'
+// import { ADD_SKILL } from '../actions'
 
-let defaultState = ['RPG', 'Java', 'React']
+// let defaultState = ['RPG', 'Java', 'React']
 
-const SkillsReducer = (state = defaultState, action) => {
-    switch (action.type) {
-        case ADD_SKILL:
-            return [...state, action.newSkill]
+// const SkillsReducer = (state = defaultState, action) => {
+//     switch (action.type) {
+//         case ADD_SKILL:
+//             return [...state, action.newSkill]
 
-        default:
-            return state
-    }
-}
+//         default:
+//             return state
+//     }
+// }
 
-export default SkillsReducer
+// export default SkillsReducer

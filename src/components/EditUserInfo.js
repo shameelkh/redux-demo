@@ -25,7 +25,8 @@ class EditUserInfo extends React.Component {
             hobby: this.state.hobby
         }
 
-        this.props.dispatch( updateUserInfo(newUserInfo) )
+        // TODO: use this.props.dispatch to updateUserInfo()
+        alert("UPDATED! ... not really")
     }
 
     render() {
