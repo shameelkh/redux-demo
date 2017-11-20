@@ -1,0 +1,57 @@
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #202226;  
+}
+
+header {
+  background: #34363d;
+}
+
+header h1 {
+  margin-top: 0;
+  margin-left: 15%; 
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.page {
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 22px; 
+  background-color: #eff0f2;
+}
+
+.sidebar {
+  width: 30%;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 22px; 
+  background-color: #eff0f2;
+  display: inline-block;
+}
+
+.editForm {
+  float: right;
+  width: 60%;
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 22px; 
+  background-color: #eff0f2;
+}
+
+.stress {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #202226;
+}
