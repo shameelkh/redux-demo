@@ -1,12 +1,12 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-const Skills = ({ name, skills }) => {
+const Skills = ({ name, skills }) => {    
     return (
         <div className="sidebar">
             <h2>{name}'s Skills</h2>
-            {skills.map(skill => (
-                <li>{skill}</li>
+            {skills.map((skill, index) => (
+                <li key={index}>{skill}</li>
             ))}
         </div>
     )

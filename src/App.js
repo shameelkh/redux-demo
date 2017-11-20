@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Profile from './components/Profile'
 import EditUserInfo from './components/EditUserInfo'
+import EditSkillsForm from './components/EditSkillsForm'
 import Sidebar from './components/Sidebar'
 import Skills from './components/Skills'
 
@@ -17,7 +18,9 @@ class App extends Component {
           <hr />
           <Sidebar />
           <EditUserInfo />
+          <hr />
           <Skills />
+          <EditSkillsForm />
         </div>
       </div>
     );
