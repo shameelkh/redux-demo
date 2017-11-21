@@ -18,9 +18,6 @@ class App extends Component {
           <hr />
           {/* <Sidebar /> */}
           <EditUserInfo />
-          <hr />
-          {/* <Skills />
-          <EditSkillsForm /> */}
         </div>
       </div>
     );
